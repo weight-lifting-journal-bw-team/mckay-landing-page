@@ -15,6 +15,8 @@
 .navbar h1 {
   margin: 0;
   margin-right: 350px;
+  color: black;
+  text-decoration: none;
 }
 @media (max-width: 500px) {
   .navbar h1 {
@@ -203,7 +205,7 @@
 }
 @media (max-width: 500px) {
   .main-display .main-display-text {
-    top: 25%;
+    top: 20%;
   }
 }
 .main-display .main-display-text h1 {
