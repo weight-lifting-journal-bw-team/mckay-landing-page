@@ -197,7 +197,7 @@
 }
 .main-display .main-display-text {
   position: absolute;
-  top: 20%;
+  top: 15%;
   color: white;
   text-align: center;
 }
@@ -207,7 +207,7 @@
   }
 }
 .main-display .main-display-text h1 {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 @media (max-width: 500px) {
   .main-display .main-display-text h1 {
@@ -216,7 +216,7 @@
 }
 .main-display .main-display-text p {
   margin-bottom: 8px;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 @media (max-width: 500px) {
   .main-display .main-display-text p {
@@ -237,11 +237,12 @@
 }
 @media (max-width: 500px) {
   .main-display .email-list {
-    margin-top: 50px;
+    margin-top: 35px;
   }
 }
 .main-display .email-list label {
   width: 100%;
+  font-size: 1rem;
 }
 @media (max-width: 500px) {
   .main-display .email-list label {
