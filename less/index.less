@@ -3,11 +3,12 @@
 @import "mixins.less";
 @import "navbar.less";
 @import '../components/Dropdown.less';
+@import "main-display.less";
 @import "footer.less";
 
 // Escaping
 @mobile: (max-width: 500px);
-@tablet: (min-width: 501px);
+@tablet: (max-width: 800px);
 // Font for whole page
 html {
   font-family: "Roboto", sans-serif;
@@ -21,7 +22,7 @@ body {
 
 // Container
 .container {
-  width: 1000px;
+  width: 100%;
   margin: 0 auto;
 
   @media @mobile {
