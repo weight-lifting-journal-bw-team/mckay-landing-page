@@ -1,0 +1,31 @@
+// Imports
+@import "variables.less";
+@import "mixins.less";
+@import "navbar.less";
+@import '../components/Dropdown.less';
+@import "footer.less";
+
+// Escaping
+@mobile: (max-width: 500px);
+@tablet: (min-width: 501px);
+// Font for whole page
+html {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #e9eeef;
+  margin: 0;
+}
+
+// Container
+.container {
+  width: 1000px;
+  margin: 0 auto;
+
+  @media @mobile {
+    width: 500px;
+    margin: 0 auto;
+  }
+}

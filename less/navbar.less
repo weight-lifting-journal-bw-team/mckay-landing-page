@@ -1,0 +1,153 @@
+// Navbar styles
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  box-shadow: 0 2px 2px 0 lightgray;
+  background-color: white;
+
+  @media @mobile {
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    margin: 0;
+    margin-right: 350px;
+
+    @media @mobile {
+      width: 100%;
+      text-align: center;
+      margin-right: 0;
+      padding-bottom: 5px;
+      font-weight: bold;
+      font-size: 3rem;
+    }
+    @media @tablet {
+      transition: margin 0.3s ease-in-out;
+      margin: 0 auto;
+    }
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+
+    .dropdown {
+      display: none;
+
+      @media @mobile {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+      }
+    }
+    @media @mobile {
+      display: block;
+      width: 100%;
+    }
+
+    @media @tablet {
+      margin: 0 auto;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+      margin: 0 20px;
+      font-size: 1rem;
+      @media @tablet {
+        padding: 10px 0;
+      }
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .navbar-link {
+      @media @mobile {
+        width: 100%;
+        display: flex;
+        margin: 0;
+        padding: 5px 0;
+        justify-content: center;
+        font-size: 2rem;
+        display: none;
+      }
+    }
+
+    .navbar-buttons {
+      display: flex;
+      justify-content: center;
+
+      @media @mobile {
+        padding-top: 5px;
+      }
+    }
+
+    .login {
+      margin-right: 10px;
+
+      @media @mobile {
+        margin: 0;
+        padding: 0;
+        width: 48%;
+      }
+    }
+
+    .sign-up {
+      margin-left: 0;
+      margin-right: 20px;
+
+      @media @mobile {
+        margin: 0;
+        padding: 0;
+        width: 48%;
+      }
+    }
+
+    .login-button {
+      border: 1px solid #594eec;
+      padding: 10px 20px;
+      color: white;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      background-color: #594eec;
+
+      @media @mobile {
+        margin: 5px auto;
+        padding: 5px 20px;
+        text-align: center;
+        width: 95%;
+      }
+    }
+
+    .sign-up-button {
+      border: 1px solid #594eec;
+      padding: 10px 20px;
+      color: #594eec;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      background-color: white;
+
+      @media @mobile {
+        margin: 5px auto;
+        padding: 5px 20px;
+        text-align: center;
+        width: 95%;
+      }
+    }
+
+    button:hover {
+      background-color: #594eec;
+      color: white;
+      transition: 0.3s;
+    }
+  }
+}
